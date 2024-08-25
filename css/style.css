@@ -2,3 +2,22 @@ main {
     height: 85vh;
     background-color: aqua;
 }
+
+footer {
+    height: 80px;
+    background-color: white;
+}
+
+#grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cel {
+    height: calc(100% / 10);
+    flex-basis: calc(100% / 10);
+    border: 2px solid white;
+}

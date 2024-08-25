@@ -35,12 +35,20 @@ const buttun = document.querySelector('button')
 
 const rows = 10;
 const cols = 10;
-const totalCell = rows + cols;
+const totalCell = rows * cols;
 
 //Regiamo al click
-
 buttun.addEventListener('click', function (){
-    console.log('ok')
+    // creco un ciclo per il numero di totalCell
+    for ( let i = 1; i <=totalCell; i++ ){
+        //creo le cell
+        const cell = document.createElement('div');
+        //aggiungo la classe
+        cell.className = 'cell';
+        //inserisco in oagina
+        grid.appendChild(cell)
+
+    }
 
 })
 

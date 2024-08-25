@@ -22,7 +22,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.cel {
+.cell {
     height: calc(100% / 10);
     flex-basis: calc(100% / 10);
     border: 2px solid white;

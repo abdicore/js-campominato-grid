@@ -44,8 +44,7 @@ const totalCell = rows * cols;
 
 // Reagiamo al click
 button.addEventListener('click', function() {
-    // Rimuovo la classe d-none dalla select
-    select.classList.remove('d-none');
+  
 
     // Pulisco la griglia prima di generare nuove celle
     grid.innerHTML = '';

@@ -21,42 +21,35 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid d-flex justify-content-between">
-            <div>
-                <a class="navbar-brand" href="#">
+    <header class="d-flex align-items-center justify-content-between "> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
                 <img src="img/Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 Campominato
-                </a>
+              </a>
             </div>
-            <div class=" d-flex align-items-center">
-                <a id="select" class="d-none nav-link " href="#" role="button" aria-expanded="false">Difficoltà</a>
-                <select class="form-select d-none ms-1" aria-label="Disabled select example" disabled>
-                    <option value="1">Hard</option>
-                    <option value="2">Medium</option>
-                    <option value="3">TEasy</option>
-                </select>
-                <button class="btn btn-primary ms-1">Play</button>
-            </div>
+        <div class=" d-flex align-items-center">
+            <h5 class="align-items-center me-1">Difficolta</h5>
+            <select class="form-select" aria-label=" select example" >
+                <option value="High">Difficile</option>
+                <option value="Medium">Media</option>
+                <option value="Easy">Easy</option>
+              </select>
+
+            <button class="btn btn-primary ms-1 me-3">Play</button>
         </div>
-    </nav>
+    </header>
     <main>
-        <div class="container-lg">
+        <div class="container p-4">
             <div class="">
                 <div class="" id="grid">
 
                 </div>
-                
             </div>
-
         </div>
-
-
     </main>
     <footer>
         <div>made with love</div>
     </footer>
-
-    
 </body>
 </html>

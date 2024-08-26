@@ -25,5 +25,9 @@ footer {
 .cell {
     height: calc(100% / 10);
     flex-basis: calc(100% / 10);
-    border: 2px solid white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
